@@ -3,7 +3,7 @@ import './Formular.css'
 
 function Formular() {
     return(
-       <form action="" className="formular">
+       <form action="Seite2.tsx" className="formular">
             <fieldset>
                 <label htmlFor="">
                     <h2>
@@ -13,7 +13,7 @@ function Formular() {
             </fieldset>
             <fieldset>
                 <input type="text"/>
-                <button className='abschicken'>Abschicken</button>   
+                <button  className='abschicken'>Abschicken</button>   
             </fieldset> 
        </form>
     )
