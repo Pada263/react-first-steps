@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Klick from './Klick'
+import Formular from './Formular'
 /*
 let name = "Patrick";
 function Name() {
@@ -10,7 +11,6 @@ function Name() {
 }
 */
 
-
 function App() {
   
   return (
@@ -18,10 +18,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
+      <main className="App-main">
         <h1>Test Arena</h1>
-        {Klick()}
-        <button>Ich bin kein Component</button>
-        
+        <Klick/>
+        <Formular/>  
+      </main>
     </div>
   );
  

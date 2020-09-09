@@ -1,0 +1,31 @@
+.formular{
+    margin-top: 10%;
+    margin-left: 33vw;
+    padding: 10px;
+    
+    
+}
+fieldset{
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+    border: none;
+}
+h2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    font-family: Arial;
+}
+input[type=text]{
+    width: 250px;
+    background-color: rgb(241, 237, 237);
+    margin-right: 10px;   
+    
+}
+.abschicken{
+    background-color: rgb(155, 192, 216);
+    color: white;
+    width: 100px;
+    height: 25px;
+}
