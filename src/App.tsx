@@ -20,6 +20,8 @@ function App() {
       </header>
         <h1>Test Arena</h1>
         {Klick()}
+        <button>Ich bin kein Component</button>
+        
     </div>
   );
  
