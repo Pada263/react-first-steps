@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Clock from './Tick'
 import Klick from './Klick'
 import Formular from './Formular'
+
 /*
 let name = "Patrick";
 function Name() {
@@ -22,6 +24,7 @@ function App() {
         <h1>Test Arena</h1>
         <Klick/>
         <Formular/>  
+        <Clock/>
       </main>
     </div>
   );
