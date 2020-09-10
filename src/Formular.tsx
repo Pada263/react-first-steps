@@ -12,8 +12,10 @@ function Formular() {
                 </label>
             </fieldset>
             <fieldset>
-                <input type="text"/>
-                <button  className='abschicken'>Abschicken</button>   
+                <input type="text" name="name" id="name"/>
+                <button  className='abschicken'>
+                   Abschicken
+                </button>   
             </fieldset> 
        </form>
     )

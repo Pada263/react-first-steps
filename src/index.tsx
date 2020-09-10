@@ -7,10 +7,7 @@ import {HashRouter, Route} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
-      <Route exact={true} path="/" component={App} />
-      <Route path="/Seite2" component={Seite2} />
-    </HashRouter>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
