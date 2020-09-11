@@ -1,5 +1,20 @@
-.btn {
-  // TODO
+$color: white;
+$btnColor: #01689A;
+$btnBorderColor:  #81bdfa;
+
+.btn{
+  margin: 8px;
+  height: 44px;
+  color: $color;
+  background-color: $btnColor;
+  padding-right: 16px;
+  border: 2px solid $btnColor;
 }
 
-// todo: add class overrides and states for active, hover etc.
+.btn:disabled {
+  background: #01689A;
+  opacity: 0.2;
+}
+.btn:active{
+  border-color: $btnBorderColor;
+}
