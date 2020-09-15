@@ -8,13 +8,20 @@ $btnBorderColor:  #81bdfa;
   color: $color;
   background-color: $btnColor;
   padding-right: 16px;
-  border: 2px solid $btnColor;
+  padding-left: 16px;
+  border: none;
 }
 
 .btn:disabled {
-  background: #01689A;
+  
   opacity: 0.2;
 }
 .btn:active{
-  border-color: $btnBorderColor;
+  
+  border: 2px solid $btnBorderColor;
+}
+
+.buttonYellow{
+  background-color: yellow;
+  color: black; 
 }

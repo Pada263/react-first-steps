@@ -5,6 +5,10 @@ import Formular from './Formular'
 import logo from './logo.svg'
 import Button from './Button'
 
+
+
+
+
 function Seite1() {
     return (
         <div>
@@ -16,8 +20,8 @@ function Seite1() {
                 <Klick/>
                 <Formular/>  
                 <Clock/>
-                <Button label="Accepteren" ></Button>
-               
+                <Button label="Accepteren" disabled={true} icon isYellow={true}></Button>
+                <Button label="Drück mich" disabled={false} icon isYellow={false}></Button>                
             </main>    
         </div>  )
      }    

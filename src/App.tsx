@@ -1,9 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Clock from './Tick'
-import Klick from './Klick'
-import Formular from './Formular'
 import Seite1 from './Seite1'
 import Seite2 from './Seite2'
 
