@@ -10,7 +10,12 @@ $btnBorderColor:  #81bdfa;
   padding-right: 16px;
   padding-left: 16px;
   border: none;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
 }
+
 
 .btn:disabled {
   
@@ -21,7 +26,7 @@ $btnBorderColor:  #81bdfa;
   border: 2px solid $btnBorderColor;
 }
 
-.buttonYellow{
+.btnYellow{
   background-color: yellow;
   color: black; 
 }

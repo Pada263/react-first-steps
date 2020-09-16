@@ -4,11 +4,11 @@ import clsx from 'clsx';
 
 
 interface ButtonProps {
-  label: string;
+  label: String;
   disabled: boolean;
   icon: any;
   isYellow: boolean;
-
+  action: any;
   // TODO: additional properties, eg. disabled, variant (style), icon to use, etc.
   iconPlacement?: "start" | "end"; // should default to start
 }
@@ -19,8 +19,9 @@ const Button: React.FC<ButtonProps> = (props) => {
   return (
     <button 
       disabled={props.disabled}
+      type={props.action}
       className={clsx(
-         {[styles.btn ]: true , [styles.buttonYellow] : props.isYellow}) 
+         {[styles.btn ]: true , [styles.btnYellow] : props.isYellow}) 
       } 
     >
       {props.icon}
