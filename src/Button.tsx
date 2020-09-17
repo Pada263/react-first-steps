@@ -6,7 +6,7 @@ import clsx from 'clsx';
 interface ButtonProps {
   label: String;
   disabled: boolean;
-  icon: any;
+  icon?: any;
   isYellow: boolean;
   action: any;
   // TODO: additional properties, eg. disabled, variant (style), icon to use, etc.
@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = (props) => {
          {[styles.btn ]: true , [styles.btnYellow] : props.isYellow}) 
       } 
     >
-      {props.icon}
+      {props.icon?props.icon: null}
       {props.label}
     </button>
   );

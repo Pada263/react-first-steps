@@ -7,6 +7,7 @@ import Button from './Button'
 import { PersonFill } from 'react-bootstrap-icons';
 import {ChatDotsFill} from 'react-bootstrap-icons';
 import {Phone} from 'react-bootstrap-icons';
+import LinkButton from './LinkButton'
 
 
 
@@ -21,9 +22,18 @@ function Seite1() {
                 <Klick/>
                 <Formular/>  
                 <Clock/>
+
+
                 <Button label="Accepteren" disabled={false} icon={<PersonFill size={22} />} isYellow={false} action="submit"></Button>
                 <Button label="Accepteren" disabled={false} icon={<ChatDotsFill size={22} />} isYellow={true} action="submit"></Button>
-                <Button label="Accepteren" disabled={true} icon={<Phone size={22} />} isYellow={false} action="submit"></Button>
+                <Button label="Accepteren" disabled={true}  isYellow={false} action="submit"></Button>
+
+                <LinkButton label="Already have an Acount? Sign in."></LinkButton>
+
+            
+
+
+
             </main>    
         </div>  )
      }    

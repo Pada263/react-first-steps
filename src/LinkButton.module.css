@@ -1,0 +1,21 @@
+.btn {
+  border: none;
+  background-color: white;
+  height: 44px;
+  text-transform: uppercase;
+}
+
+.btn > .btn__link {
+  text-decoration: none;
+  color: #3676ec;
+}
+
+.btn > .btn__link:hover {
+  text-decoration: underline;
+}
+
+.btn > .btn__link:active {
+  color: red;
+}
+
+/*# sourceMappingURL=LinkButton.module.css.map */
