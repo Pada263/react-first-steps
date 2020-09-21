@@ -24,15 +24,11 @@ function Seite1() {
                 <Clock/>
 
 
-                <Button label="Accepteren" disabled={false} icon={<PersonFill size={22} />} isYellow={false} action="submit"></Button>
-                <Button label="Accepteren" disabled={false} icon={<ChatDotsFill size={22} />} isYellow={true} action="submit"></Button>
-                <Button label="Accepteren" disabled={true}  isYellow={false} action="submit"></Button>
+                <Button label="Accepteren" disabled={false} icon={<PersonFill size={25} />}  isIcon={true} isYellow={false} action="submit"></Button>
+                <Button label="Accepteren" disabled={false} icon={<ChatDotsFill size={25}/>} isIcon={true} isYellow={true} action="submit"></Button>
+                <Button label="Accepteren" disabled={true} isIcon={false}  isYellow={false} action="submit"></Button>
 
                 <LinkButton label="Already have an Acount? Sign in."></LinkButton>
-
-            
-
-
 
             </main>    
         </div>  )

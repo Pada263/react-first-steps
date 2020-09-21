@@ -14,6 +14,7 @@ $btnBorderColor:  #81bdfa;
   text-align: center;
   justify-items: center;
   align-items: center;
+  
 }
 
 
@@ -29,4 +30,11 @@ $btnBorderColor:  #81bdfa;
 .btnYellow{
   background-color: yellow;
   color: black; 
+}
+
+.icon{
+ padding-left: 0;
+ svg{
+  width: 44px; 
+  }
 }

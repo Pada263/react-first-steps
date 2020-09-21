@@ -1,30 +1,24 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './LinkButton.module.scss';
-import { Link } from 'react-router-dom';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 interface LinkButtonProps {
   label: String;
 }
 
+
 const LinkButton: React.FC<LinkButtonProps> = (props) => {
+  
   return (
-    <button
-      className={clsx(
-        "todo bootstrap classes",
-        styles.btn
-      )}
-    > 
-      <Link to="" 
-        className={clsx(
-          styles.btn__link
-         )} 
-      > 
-        {props.label}
-      </Link>
-     
+    <button type="button"  className={clsx(styles.btn, "btn btn-link")}>
+     <a href="#">
+      {props.label}
+      </a>
     </button>
   );
 };
+
 
 export default LinkButton;

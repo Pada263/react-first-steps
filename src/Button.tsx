@@ -7,6 +7,8 @@ interface ButtonProps {
   label: String;
   disabled: boolean;
   icon?: any;
+  isIcon: boolean;
+  
   isYellow: boolean;
   action: any;
   // TODO: additional properties, eg. disabled, variant (style), icon to use, etc.
@@ -16,14 +18,15 @@ interface ButtonProps {
 
 
 const Button: React.FC<ButtonProps> = (props) => {
+
   return (
     <button 
       disabled={props.disabled}
       type={props.action}
       className={clsx(
-         {[styles.btn ]: true , [styles.btnYellow] : props.isYellow}) 
+         {[styles.btn ]: true , [styles.btnYellow] : props.isYellow, [styles.icon] : props.isIcon}) 
       } 
-    >
+    > 
       {props.icon?props.icon: null}
       {props.label}
     </button>
