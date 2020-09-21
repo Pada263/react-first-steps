@@ -12,7 +12,7 @@ interface LinkButtonProps {
 const LinkButton: React.FC<LinkButtonProps> = (props) => {
   
   return (
-    <button type="button"  className={clsx(styles.btn, "btn btn-link")}>
+    <button type="submit"  className={clsx(styles.btn, "btn btn-icon")}>
      <a href="#">
       {props.label}
       </a>
