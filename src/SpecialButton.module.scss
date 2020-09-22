@@ -1,23 +1,10 @@
-$theme-color:(
-    primary: #01689b,
-    light: #cce0f1,
-    lighter: #e5f0f9,
-    info: #CCE0F1,
-    textColorSecundary: #0B1637,
-    textColorPrimary: #FFFFFF,
-    backgroundGray: #F3F3F3,
-);
 .btn{
     height: 44px;
     margin: 8px;
-    text-transform:capitalize;    
-    text-align: center;
-    justify-items: center;
     align-items: center;
     border-radius: 0%;
     background-color: rgb(187, 228, 255);
     font-weight: bolder;
-    
     
 }
 .btn:active{
@@ -25,11 +12,4 @@ $theme-color:(
 }
 .btn:focus {
     box-shadow: none;
-}
-.icon{
-
-   svg{
-    padding-right: 5px;
-    padding-bottom: 3px;
-   } 
 }
