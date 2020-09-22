@@ -1,12 +1,9 @@
-$color: white;
-$btnColor: #01689A;
+
 $btnBorderColor:  #81bdfa;
 
 .btn{
   margin: 8px;
   height: 44px;
-  color: $color;
-  background-color: $btnColor;
   padding-right: 16px;
   padding-left: 16px;
   border: none;
@@ -14,7 +11,7 @@ $btnBorderColor:  #81bdfa;
   text-align: center;
   justify-items: center;
   align-items: center;
-  
+  border-radius: 0%;
 }
 
 
@@ -23,7 +20,6 @@ $btnBorderColor:  #81bdfa;
   opacity: 0.2;
 }
 .btn:active{
-  
   border: 2px solid $btnBorderColor;
 }
 

@@ -2,7 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './LinkButton.module.scss';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 interface LinkButtonProps {
   label: String;
