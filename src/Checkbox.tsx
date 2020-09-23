@@ -9,9 +9,10 @@ interface CheckboxProps{
 
 const Checkbox: React.FC<CheckboxProps> = (props) => {
      const [isChecked, setIsChecked] = useState(false);
+     
     return (
         <label className={clsx([styles.checkbox_container])}>
-            <input  className={clsx([styles.checkbox_container])} type="checkbox" checked={isChecked} onChange={(e)=>{setIsChecked(e.target.checked)}}/>
+            <input  type="checkbox" checked={isChecked} onChange={(e)=>{setIsChecked(e.target.checked)}}/>
             {props.label}
         </label>
     )
