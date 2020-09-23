@@ -6,9 +6,9 @@ import logo from './logo.svg'
 import Button from './Button'
 import { PersonFill } from 'react-bootstrap-icons';
 import {ChatDotsFill} from 'react-bootstrap-icons';
-import {Phone} from 'react-bootstrap-icons';
 import LinkButton from './LinkButton'
 import {SpecialButton} from './SpecialButton';
+import Checkbox from './Checkbox'
 
 
 
@@ -31,6 +31,9 @@ function Seite1() {
                 <Button label="Accepteren" disabled={true} isIcon={false}  isYellow={false} action="submit"></Button>
                 <SpecialButton label="Me" icon={<PersonFill size={25}/>} isIcon={true}/>
                 <LinkButton label="Already have an Acount? Sign in."></LinkButton>
+
+                <Checkbox label="Test" />
+
 
             </main>    
         </div>  )

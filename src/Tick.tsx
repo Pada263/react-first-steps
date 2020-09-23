@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 function Clock (){
-    const [time, setTime] = useState(new Date());
+    const [, setTime] = useState(new Date());
 
     useEffect(() => {
       const intervalId = setInterval(() => {
