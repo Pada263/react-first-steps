@@ -36,3 +36,6 @@ const Button: React.FC<ButtonProps> = (props) => {
 };
 
 export default Button;
+
+
+// <Button theme="btn btn-danger" label="Accepteren" disabled={false} icon={<PersonFill size={25} />}  isIcon={true} isYellow={false} action="submit"></Button>

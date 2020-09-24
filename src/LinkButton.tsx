@@ -8,16 +8,15 @@ interface LinkButtonProps {
 
 const LinkButton: React.FC<LinkButtonProps> = (props) => {
 
-function handleButtonClick(){}
+
 function handleLinkClick(e: { preventDefault: () => void; }) {}
 
   return (
-    <button type="submit"  className={clsx(styles.btn, "btn btn-icon")}
-        >
+    
      <a href="#" onClick={handleLinkClick}>
       {props.label}
       </a>
-    </button>
+    
   );
 };
 
