@@ -25,10 +25,10 @@ function Seite1() {
                 <Formular/>  
                 <Clock/>
 
-
-                <Button label="Accepteren" disabled={false} icon={<PersonFill size={25} />}  isIcon={true} isYellow={false} action="submit"></Button>
-                <Button label="Accepteren" disabled={false} icon={<ChatDotsFill size={25}/>} isIcon={true} isYellow={true} action="submit"></Button>
-                <Button label="Accepteren" disabled={true} isIcon={false}  isYellow={false} action="submit"></Button>
+                
+                <Button theme="btn btn-danger" label="Accepteren" disabled={false} icon={<PersonFill size={25} />}  isIcon={true} isYellow={false} action="submit"></Button>
+                <Button theme="btn btn-default" label="Accepteren" disabled={false} icon={<ChatDotsFill size={25}/>} isIcon={true} isYellow={true} action="submit"></Button>
+                <Button theme="btn btn-success" label="Accepteren" disabled={true} isIcon={false}  isYellow={false} action="submit"></Button>
                 <SpecialButton label="Me" icon={<PersonFill size={25}/>} isIcon={true}/>
                 <LinkButton label="Already have an Acount? Sign in."></LinkButton>
 

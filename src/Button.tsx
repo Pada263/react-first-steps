@@ -10,6 +10,8 @@ interface ButtonProps {
   isIcon: boolean;
   isYellow: boolean;
   action: any;
+  theme: String;
+ 
   // TODO: additional properties, eg. disabled, variant (style), icon to use, etc.
   iconPlacement?: "start" | "end"; // should default to start
 }
@@ -20,10 +22,11 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   return (
     <button 
+      
       disabled={props.disabled}
       type={props.action}
-      className={clsx( "btn btn-primary",
-         {  [styles.btn ]: true , [styles.btnYellow] : props.isYellow, [styles.icon] : props.isIcon} ) 
+      className={clsx( [props.theme],
+         {  [styles.btn ]: true , [styles.btnYellow] : props.isYellow, [styles.icon] : props.isIcon, } ) 
       } 
     > 
       {props.icon?props.icon: null}
